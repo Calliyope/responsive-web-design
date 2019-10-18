@@ -3,6 +3,18 @@
 body {
     background: red;
 }
+
+#small {
+    visibility: visible;
+}
+
+#medium {
+    visibility: hidden;
+}
+
+#large {
+    visibility: hidden;
+}
 }
 
 @media screen and (min-width:301px) and (max-width:767px){
@@ -10,11 +22,35 @@ body {
 body {
     background: blue;
 }
+
+#medium {
+    visibility: visible;
+}
+
+#small {
+    visibility: hidden;
+}
+
+#large {
+    visibility: hidden;
+}
 }
 
 @media screen and (min-width:768px){
 
 body {
     background: green;
+}
+
+#large {
+    visibility: visible;
+}
+
+#medium {
+    visibility: hidden;
+}
+
+#small {
+    visibility: hidden;
 }
 }
