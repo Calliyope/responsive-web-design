@@ -4,15 +4,7 @@ body {
     background: red;
 }
 
-#small {
-    visibility: visible;
-}
-
-#medium {
-    visibility: hidden;
-}
-
-#large {
+#medium, #large {
     visibility: hidden;
 }
 }
@@ -23,15 +15,7 @@ body {
     background: blue;
 }
 
-#medium {
-    visibility: visible;
-}
-
-#small {
-    visibility: hidden;
-}
-
-#large {
+#small, #large {
     visibility: hidden;
 }
 }
@@ -42,15 +26,7 @@ body {
     background: green;
 }
 
-#large {
-    visibility: visible;
-}
-
-#medium {
-    visibility: hidden;
-}
-
-#small {
+#medium, #small {
     visibility: hidden;
 }
 }
